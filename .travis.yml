@@ -33,6 +33,7 @@ deploy:
 
 after_script:
   - cd ./_book
+  - git init .
   - git add .
   - git commit -m "Update By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   - git push --force --quiet "https://ljjjustin:${CODING_TOKEN}@${CODING_REPO}" master:master
