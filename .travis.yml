@@ -1,0 +1,44 @@
+language: node_js
+node_js:
+  - "v11.14.0"
+branches:
+  only:
+  - master
+notification:
+	email:
+		recipients:
+			- iamljj@gmail.com
+		on_success: change
+		on_failure: always
+cache:
+  directories:
+  - node_modules
+  yarn: true
+
+before_install:
+- export TZ='Asia/Shanghai'
+
+install:
+- npm install -g gitbook-cli
+
+script:
+- gitbook build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: ./_book/
+  target-branch: gh-pages
+  verbose: true
+  on:
+    branch: master
+after_script:
+	- cd ./_book
+  - git add .
+  - git commit -m "Update By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  - git push --force --quiet "https://ljjjustin:${CODING_TOKEN}@${CODING_REPO}" master:master
+
+env:
+ global:
+   - CODING_REPO: git.coding.net/ljjjustin/wiki.git
