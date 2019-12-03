@@ -4,7 +4,7 @@ node_js:
 branches:
   only:
   - master
-notification:
+notifications:
   email:
     recipients:
       - iamljj@gmail.com
