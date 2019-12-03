@@ -5,11 +5,11 @@ branches:
   only:
   - master
 notification:
-	email:
-		recipients:
-			- iamljj@gmail.com
-		on_success: change
-		on_failure: always
+  email:
+    recipients:
+      - iamljj@gmail.com
+   on_success: change
+   on_failure: always
 cache:
   directories:
   - node_modules
@@ -34,7 +34,7 @@ deploy:
   on:
     branch: master
 after_script:
-	- cd ./_book
+  - cd ./_book
   - git add .
   - git commit -m "Update By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   - git push --force --quiet "https://ljjjustin:${CODING_TOKEN}@${CODING_REPO}" master:master
