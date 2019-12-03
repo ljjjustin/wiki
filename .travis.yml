@@ -8,22 +8,18 @@ notifications:
   email:
     recipients:
       - iamljj@gmail.com
-   on_success: change
-   on_failure: always
+    on_success: always
+    on_failure: always
 cache:
   directories:
   - node_modules
   yarn: true
-
 before_install:
 - export TZ='Asia/Shanghai'
-
 install:
 - npm install -g gitbook-cli
-
 script:
 - gitbook build
-
 deploy:
   provider: pages
   skip-cleanup: true
@@ -33,6 +29,7 @@ deploy:
   verbose: true
   on:
     branch: master
+
 after_script:
   - cd ./_book
   - git add .
@@ -40,5 +37,5 @@ after_script:
   - git push --force --quiet "https://ljjjustin:${CODING_TOKEN}@${CODING_REPO}" master:master
 
 env:
- global:
-   - CODING_REPO: git.coding.net/ljjjustin/wiki.git
+  global:
+    - CODING_REPO: git.coding.net/ljjjustin/wiki.git
