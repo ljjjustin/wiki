@@ -9,5 +9,6 @@
 * [操作系统](os/summary.md)
 * [云计算](cloud/summary.md)
 * [数据库](db/summary.md)
+  * [基础](db/common.md)
 * [技术运营](ops/summary.md)
 * [架构分析](arch/summary.md)
