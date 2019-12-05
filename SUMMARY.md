@@ -7,6 +7,8 @@
     * [bash基础](lang/bash/basic.md)
   * [python](lang/python/summary.md)
 * [操作系统](os/summary.md)
+  * [MacOS](os/macos/summary.md)
+    * [Tips](os/macos/tips.md)
 * [云计算](cloud/summary.md)
 * [数据库](db/summary.md)
   * [基础](db/common.md)
