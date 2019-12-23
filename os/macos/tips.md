@@ -43,3 +43,22 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 然后重新source一下，再次执行`java -version`，结果就正常了。
+
+### 安装xcode命令行工具
+
+执行`xcode-select --install`安装命令行工具时报错，具体如下：
+
+```bash
+$ xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+```
+
+解决方法：删除现有的老版本，然后重装一下。具体命令如下：
+
+```bash
+$ sudo rm -fr /Library/Developer/CommandLineTools
+$ xcode-select --install
+```
+
+参考下面的链接：https://stackoverflow.com/questions/34617452/how-to-update-xcode-from-command-line
+

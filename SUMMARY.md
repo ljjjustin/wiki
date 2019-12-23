@@ -9,6 +9,8 @@
 * [操作系统](os/summary.md)
   * [MacOS](os/macos/summary.md)
     * [Tips](os/macos/tips.md)
+  * [Linux](os/linux/summary.md)
+    * [常用工具](os/linux/tools.md)
 * [云计算](cloud/summary.md)
 * [数据库](db/summary.md)
   * [基础](db/common.md)
