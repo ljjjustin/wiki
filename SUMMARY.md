@@ -5,6 +5,7 @@
   * [bash](lang/bash/summary.md)
     * [linux基础](lang/bash/linux.md)
     * [bash基础](lang/bash/basic.md)
+    * [awk入门](lang/bash/awk.md)
   * [python](lang/python/summary.md)
 * [操作系统](os/summary.md)
   * [MacOS](os/macos/summary.md)
