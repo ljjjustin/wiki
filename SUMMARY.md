@@ -11,6 +11,7 @@
   * [MacOS](os/macos/summary.md)
     * [Tips](os/macos/tips.md)
   * [Linux](os/linux/summary.md)
+    * [内核简介](os/linux/kernel.md)
     * [常用工具](os/linux/tools.md)
 * [云计算](cloud/summary.md)
 * [数据库](db/summary.md)
