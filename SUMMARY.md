@@ -12,6 +12,7 @@
     * [Tips](os/macos/tips.md)
   * [Linux](os/linux/summary.md)
     * [内核简介](os/linux/kernel.md)
+    * [性能调优](os/linux/perf.md)
     * [常用工具](os/linux/tools.md)
 * [云计算](cloud/summary.md)
 * [数据库](db/summary.md)
