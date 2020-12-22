@@ -1,0 +1,843 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ceph存储 · 个人知识库</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Jiajun <iamljj@gmail.com>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../db/summary.html" />
+    
+    
+    <link rel="prev" href="../summary.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    内容简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    编程语言
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../lang/bash/summary.html">
+            
+                <a href="../../lang/bash/summary.html">
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    bash
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="../../lang/bash/linux.html">
+            
+                <a href="../../lang/bash/linux.html">
+            
+                    
+                        <b>1.2.1.1.</b>
+                    
+                    linux基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="../../lang/bash/basic.html">
+            
+                <a href="../../lang/bash/basic.html">
+            
+                    
+                        <b>1.2.1.2.</b>
+                    
+                    bash基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="../../lang/bash/regex.html">
+            
+                <a href="../../lang/bash/regex.html">
+            
+                    
+                        <b>1.2.1.3.</b>
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.4" data-path="../../lang/bash/awk.html">
+            
+                <a href="../../lang/bash/awk.html">
+            
+                    
+                        <b>1.2.1.4.</b>
+                    
+                    awk入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../lang/python/summary.md">
+            
+                <span>
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../lang/vim/summary.html">
+            
+                <a href="../../lang/vim/summary.html">
+            
+                    
+                        <b>1.2.3.</b>
+                    
+                    vimscript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../lang/vim/basic.html">
+            
+                <a href="../../lang/vim/basic.html">
+            
+                    
+                        <b>1.2.3.1.</b>
+                    
+                    基础篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3.2" data-path="../../lang/vim/write-plugin.html">
+            
+                <a href="../../lang/vim/write-plugin.html">
+            
+                    
+                        <b>1.2.3.2.</b>
+                    
+                    编写插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../os/summary.md">
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    操作系统
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../os/macos/summary.html">
+            
+                <a href="../../os/macos/summary.html">
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    MacOS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../os/macos/tips.html">
+            
+                <a href="../../os/macos/tips.html">
+            
+                    
+                        <b>1.3.1.1.</b>
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../os/linux/summary.html">
+            
+                <a href="../../os/linux/summary.html">
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.2.1" data-path="../../os/linux/kernel.html">
+            
+                <a href="../../os/linux/kernel.html">
+            
+                    
+                        <b>1.3.2.1.</b>
+                    
+                    内核简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.2" data-path="../../os/linux/perf.html">
+            
+                <a href="../../os/linux/perf.html">
+            
+                    
+                        <b>1.3.2.2.</b>
+                    
+                    性能调优
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2.3" data-path="../../os/linux/tools.html">
+            
+                <a href="../../os/linux/tools.html">
+            
+                    
+                        <b>1.3.2.3.</b>
+                    
+                    常用工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../summary.html">
+            
+                <a href="../summary.html">
+            
+                    
+                        <b>1.4.</b>
+                    
+                    云计算
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="summary.html">
+            
+                <a href="summary.html">
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    ceph存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../db/summary.html">
+            
+                <a href="../../db/summary.html">
+            
+                    
+                        <b>1.5.</b>
+                    
+                    数据库
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../db/common.html">
+            
+                <a href="../../db/common.html">
+            
+                    
+                        <b>1.5.1.</b>
+                    
+                    基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../ops/summary.html">
+            
+                <a href="../../ops/summary.html">
+            
+                    
+                        <b>1.6.</b>
+                    
+                    技术运营
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../arch/summary.html">
+            
+                <a href="../../arch/summary.html">
+            
+                    
+                        <b>1.7.</b>
+                    
+                    架构分析
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../arch/redis/summary.md">
+            
+                <span>
+            
+                    
+                        <b>1.7.1.</b>
+                    
+                    Redis架构分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >ceph存储</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <link rel="stylesheet" type="text/css" href="/auto-number.css">
+
+<h1 id="ceph&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x5256;&#x6790;">ceph&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x5256;&#x6790;</h1>
+<h2 id="&#x5B58;&#x50A8;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;">&#x5B58;&#x50A8;&#x7684;&#x57FA;&#x672C;&#x6982;&#x5FF5;</h2>
+<ul>
+<li>&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;</li>
+</ul>
+<blockquote>
+<p>&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x6307;&#x7684;&#x662F;&#x5229;&#x7528;&#x670D;&#x52A1;&#x5668;&#x7684;&#x76F4;&#x8FDE;&#x78C1;&#x76D8;&#x642D;&#x5EFA;&#x7684;&#xFF0C;&#x5177;&#x6709;&#x7075;&#x6D3B;&#x3001;&#x9AD8;&#x53EF;&#x6269;&#x5C55;&#x3001;&#x9AD8;&#x53EF;&#x7528;&#x3001;&#x9AD8;&#x6027;&#x80FD;&#x7B49;&#x7279;&#x5F81;&#x7684;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x3002;
+&#x4ECE;&#x529F;&#x80FD;&#x4E0A;&#x8BB2;&#xFF0C;&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x4E0E;&#x96C6;&#x4E2D;&#x5F0F;&#x5B58;&#x50A8;&#x7C7B;&#x4F3C;&#xFF1B;&#x4ECE;&#x8BBE;&#x5907;&#x6295;&#x5165;&#x548C;&#x6210;&#x672C;&#x7684;&#x89D2;&#x5EA6;&#x6765;&#x8BB2;&#xFF0C;&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x901A;&#x8FC7;&#x666E;&#x901A;&#x7684;&#x5546;&#x7528;&#x670D;&#x52A1;&#x5668;&#x548C;&#x7F51;&#x7EDC;&#x8BBE;&#x5907;&#x5373;&#x53EF;&#x642D;&#x5EFA;&#xFF0C;
+&#x4E0D;&#x9700;&#x8981;&#x4E13;&#x7528;&#x7684;&#x786C;&#x4EF6;&#x8BBE;&#x5907;&#xFF0C;&#x4EF7;&#x683C;&#x66F4;&#x52A0;&#x4F4E;&#x5EC9;&#xFF1B;&#x901A;&#x8FC7;&#x5197;&#x4F59;&#x53CA;&#x5206;&#x5E03;&#x5F0F;&#x6280;&#x672F;&#xFF0C;&#x4FDD;&#x8BC1;&#x5B58;&#x50A8;&#x7684;&#x9AD8;&#x53EF;&#x7528;&#x548C;&#x9AD8;&#x6027;&#x80FD;&#x3002;</p>
+</blockquote>
+<ul>
+<li>&#x5757;&#x5B58;&#x50A8;</li>
+</ul>
+<blockquote>
+<p>&#x5757;&#x5B58;&#x50A8;&#x76F8;&#x5F53;&#x4E8E;&#x4F20;&#x7EDF;SAN&#x5B58;&#x50A8;&#x7684;&#x4E00;&#x4E2A;LUN&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x5B9A;&#x7684;&#x5BB9;&#x91CF;&#x9650;&#x5236;&#xFF0C;&#x901A;&#x8FC7;iSCSI&#x6216;FC-SCSI&#x534F;&#x8BAE;&#x8FDB;&#x884C;&#x8FDE;&#x63A5;&#x548C;&#x4F7F;&#x7528;&#xFF0C;&#x975E;&#x5E38;&#x63A5;&#x8FD1;&#x4E8E;&#x751F;&#x6D3B;&#x4E2D;&#x5E38;&#x7528;&#x7684;&#x79FB;&#x52A8;&#x786C;&#x76D8;&#x3002;
+&#x4E3A;&#x4E86;&#x4F7F;&#x7528;&#x5757;&#x5B58;&#x50A8;&#xFF0C;&#x9996;&#x5148;&#x9700;&#x8981;&#x5C06;&#x5757;&#x5B58;&#x50A8;&#x8FDE;&#x63A5;&#x5230;&#x670D;&#x52A1;&#x5668;&#xFF08;&#x53EF;&#x4EE5;&#x662F;&#x865A;&#x62DF;&#x673A;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x8FDB;&#x5165;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5BF9;&#x5176;&#x5212;&#x5206;&#x78C1;&#x76D8;&#x5206;&#x533A;&#xFF0C;&#x6267;&#x884C;&#x683C;&#x5F0F;&#x5316;&#xFF0C;&#x6700;&#x540E;&#x6302;&#x8F7D;&#x5230;&#x67D0;&#x4E2A;&#x76EE;&#x5F55;&#xFF0C;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x3002;</p>
+</blockquote>
+<ul>
+<li>&#x5BF9;&#x8C61;&#x5B58;&#x50A8;</li>
+</ul>
+<blockquote>
+<p>&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x4E0E;&#x5E38;&#x89C1;&#x7684;&#x5B58;&#x50A8;&#x6709;&#x8F83;&#x5927;&#x7684;&#x5DEE;&#x522B;&#xFF0C;&#x901A;&#x8FC7;HTTP&#x534F;&#x8BAE;&#x8FDB;&#x884C;&#x8BBF;&#x95EE;&#x7684;&#xFF1B;&#x5B83;&#x6CA1;&#x6709;&#x76EE;&#x5F55;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x662F;&#x901A;&#x8FC7;&#x5BF9;&#x8C61;&#x7684;&#x540D;&#x79F0;&#x533A;&#x522B;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#xFF1B;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x901A;&#x5E38;&#x662F;&#x8BFB;&#x591A;&#x5199;&#x5C11;&#x3002;</p>
+</blockquote>
+<ul>
+<li>&#x6587;&#x4EF6;&#x5B58;&#x50A8;</li>
+</ul>
+<blockquote>
+<p>&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x6307;&#x7684;&#x662F;&#x7C7B;&#x4F3C;&#x4E8E;NFS&#x7684;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#xFF0C;&#x4E3A;&#x4F7F;&#x7528;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#xFF0C;&#x9996;&#x5148;&#x9700;&#x8981;&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x6302;&#x8F7D;&#x5230;&#x670D;&#x52A1;&#x5668;&#x7684;&#x67D0;&#x4E2A;&#x76EE;&#x5F55;&#xFF0C;&#x7136;&#x540E;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;posix&#x534F;&#x8BAE;&#x5BF9;&#x6587;&#x4EF6;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;</p>
+</blockquote>
+<h2 id="ceph&#x67B6;&#x6784;&#x5206;&#x6790;">ceph&#x67B6;&#x6784;&#x5206;&#x6790;</h2>
+<p>ceph&#x662F;&#x8FD1;&#x4E9B;&#x5E74;&#x975E;&#x5E38;&#x53D7;&#x6B22;&#x8FCE;&#x7684;&#x5F00;&#x6E90;&#x5206;&#x5E03;&#x5F0F;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#xFF0C;&#x5728;&#x5F88;&#x591A;&#x884C;&#x4E1A;&#x548C;&#x9886;&#x57DF;&#x90FD;&#x6709;&#x7740;&#x5E7F;&#x6CDB;&#x7684;&#x5E94;&#x7528;&#xFF1B;&#x57FA;&#x4E8E;openstack&#x7684;&#x4E91;&#x5E73;&#x53F0;&#x57FA;&#x672C;&#x4E0A;&#x90FD;&#x628A;ceph&#x4F5C;&#x4E3A;&#x9ED8;&#x8BA4;&#x7684;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x3002;</p>
+<p>ceph&#x4ECE;&#x529F;&#x80FD;&#x4E0A;&#x80FD;&#x591F;&#x540C;&#x65F6;&#x63D0;&#x4F9B;&#xFF1A;&#x5757;&#x5B58;&#x50A8;&#x3001;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x3001;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x3002;ceph&#x603B;&#x4F53;&#x67B6;&#x6784;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p>
+<p><a href="https://docs.ceph.com/en/latest/architecture/" target="_blank"><img src="assets/ceph-arch.png"></a></p>
+<p>&#x5982;&#x4E0A;&#x56FE;&#x6240;&#x793A;&#xFF0C;ceph&#x5B58;&#x50A8;&#x6700;&#x5E95;&#x5C42;&#x7684;&#x662F;RADOS&#xFF08;Reliable Autonomic Distributed Object Store&#xFF09;&#xFF0C;&#x5757;&#x5B58;&#x50A8;&#x3001;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x3001;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x90FD;&#x662F;&#x57FA;&#x4E8E;RADOS&#x6784;&#x5EFA;&#x8D77;&#x6765;&#x7684;&#x3002;</p>
+<h3 id="raods">RAODS</h3>
+<p>RADOS&#x662F;&#x4E00;&#x4E2A;PB&#x7EA7;&#x522B;&#x3001;&#x81EA;&#x52A8;&#x3001;&#x5F39;&#x6027;&#x53EF;&#x4F38;&#x7F29;&#x7684;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x3002;&#x5B83;&#x5177;&#x6709;&#x5982;&#x4E0B;&#x7279;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>&#x5B83;&#x6709;&#x5B58;&#x50A8;&#x8282;&#x70B9;&#xFF08;osd&#xFF09;&#x548C;&#x63A7;&#x5236;&#x8282;&#x70B9;&#xFF08;monitor&#xFF09;&#x7EC4;&#x6210;</li>
+<li>&#x6570;&#x636E;&#x7684;&#x540C;&#x6B65;&#x3001;&#x5907;&#x4EFD;&#x3001;&#x66F4;&#x65B0;&#x3001;&#x8FC1;&#x79FB;&#x3001;&#x6062;&#x590D;&#x90FD;&#x662F;&#x52A8;&#x6001;&#x8FDB;&#x884C;&#x7684;</li>
+<li>&#x901A;&#x8FC7;CRUSH&#x7B97;&#x6CD5;&#x4FDD;&#x8BC1;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x7684;&#x591A;&#x4E2A;&#x526F;&#x672C;&#x8C03;&#x5EA6;&#x5230;&#x4E0D;&#x540C;&#x7684;&#x5B58;&#x50A8;&#x8282;&#x70B9;&#x4E0A;</li>
+<li>&#x6BCF;&#x4E2A;&#x5B58;&#x50A8;&#x8282;&#x70B9;&#x90FD;&#x6709;&#x5168;&#x5C40;&#x7684;&#x6BCF;&#x4E2A;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x5230;&#x54EA;&#x4E2A;&#x8282;&#x70B9;&#x4E0A;&#x662F;&#x901A;&#x8FC7;&#x8BA1;&#x7B97;&#x5F97;&#x51FA;&#x7684;</li>
+</ul>
+<p>&#x5728;ceph&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4E00;&#x5207;&#x7686;&#x5BF9;&#x8C61;&#x3002;&#x4E0A;&#x5C42;&#x7684;&#x5757;&#x5B58;&#x50A8;&#x3001;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x3001;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x7684;&#x5BF9;&#x8C61;&#x6309;&#x7167;&#x56FA;&#x5B9A;&#x5927;&#x5C0F;&#x5207;&#x5206;&#x6210;&#x5C0F;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x7136;&#x540E;&#x5B58;&#x50A8;&#x5230;RADOS&#x4E2D;&#x3002;&#x5177;&#x4F53;&#x8FC7;&#x7A0B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><a href="https://docs.ceph.com/en/latest/architecture/" target="_blank"><img src="assets/ceph-map2rados.png"></a></p>
+<p>&#x5982;&#x4E0A;&#x56FE;&#x6240;&#x793A;&#xFF0C;&#x5757;&#x5B58;&#x50A8;&#x3001;&#x5BF9;&#x8C61;&#x5B58;&#x50A8;&#x3001;&#x6587;&#x4EF6;&#x5B58;&#x50A8;&#x6309;&#x56FA;&#x5B9A;&#x5927;&#x5C0F;&#x5207;&#x5206;&#x6210;&#x5C0F;&#x7684;&#x5BF9;&#x8C61;&#x540E;&#xFF0C;&#x5E76;&#x4E0D;&#x662F;&#x76F4;&#x63A5;&#x6620;&#x5C04;&#x5230;&#x5177;&#x4F53;&#x7684;OSD&#x4E0A;&#xFF0C;&#x800C;&#x662F;&#x8981;&#x7ECF;&#x8FC7;&#x4E00;&#x4E2A;&#x4E2D;&#x95F4;&#x5C42;&#xFF1A;PG&#xFF08;place group&#xFF09;&#xFF1B;PG&#x518D;&#x7ECF;&#x8FC7;CRUSH&#x7B97;&#x6CD5;&#x6620;&#x5C04;&#x5230;&#x5177;&#x4F53;&#x7684;&#x78C1;&#x76D8;&#x4E0A;&#x3002;&#x6B64;&#x5916;&#xFF0C;ceph&#x8FD8;&#x6709;&#x4E00;&#x4E2A;pool&#x7684;&#x6982;&#x5FF5;&#xFF0C;ceph&#x53EF;&#x4EE5;&#x5C06;&#x6574;&#x4E2A;&#x96C6;&#x7FA4;&#x5212;&#x5206;&#x6210;&#x82E5;&#x5E72;&#x4E2A;pool&#xFF0C;&#x6BCF;&#x4E2A;pool&#x8BBE;&#x7F6E;&#x4E00;&#x5B9A;&#x6570;&#x91CF;&#x7684;PG&#xFF0C;&#x6BCF;&#x4E2A;PG&#x53EA;&#x80FD;&#x5C5E;&#x4E8E;&#x4E00;&#x4E2A;pool&#x3002;pgid&#x7684;&#x683C;&#x5F0F;&#x662F;&#xFF1A;pool_id.pg_id&#x3002;</p>
+<h4 id="ceph-monitor">ceph monitor</h4>
+<p>ceph monitor&#x63D0;&#x4F9B;kv&#x5B58;&#x50A8;&#xFF0C;&#x7528;&#x6765;&#x4FDD;&#x5B58;&#x96C6;&#x7FA4;&#x5173;&#x952E;&#x7684;&#x72B6;&#x6001;&#x6570;&#x636E;&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x8D1F;&#x8D23;&#x76D1;&#x63A7;&#x5404;&#x4E2A;&#x5B58;&#x50A8;&#x8282;&#x70B9;&#x7684;&#x72B6;&#x6001;&#x3002;ceph monitor&#x7684;&#x603B;&#x4F53;&#x67B6;&#x6784;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p>
+<p><a href="https://docs.ceph.com/en/latest/architecture/?#cluster-map" target="_blank"><img src="assets/ceph-mon-arch.png"></a></p>
+<p>&#x5982;&#x4E0A;&#x56FE;&#x6240;&#x793A;&#xFF0C;ceph monitor&#x5B58;&#x50A8;&#x4E86;&#x5982;&#x4E0B;&#x7684;&#x72B6;&#x6001;&#x6570;&#x636E;(Cluster Map)&#xFF1A;</p>
+<ul>
+<li>monitor map&#xFF1A;&#x5305;&#x542B;&#x4E86;&#x96C6;&#x7FA4;&#x7684;&#x5168;&#x5C40;&#x4FE1;&#x606F;&#xFF1A;fsid&#x3001;epoch&#x53CA;&#x6240;&#x6709;monitor&#x7684;&#x5730;&#x5740;&#x548C;&#x72B6;&#x6001;&#xFF1B;&#x901A;&#x8FC7;<code>ceph mon dump</code>&#x67E5;&#x770B;&#xFF1B;</li>
+<li>osd map&#xFF1A;&#x5305;&#x542B;&#x4E86;&#x96C6;&#x7FA4;&#x7684;fsid&#x3001;epoch&#x3001;pool&#x5217;&#x8868;&#x53CA;&#x6240;&#x6709;osd&#x7684;&#x8FDE;&#x63A5;&#x5730;&#x5740;&#x4FE1;&#x606F;&#xFF1B;&#x901A;&#x8FC7;<code>ceph osd dump</code>&#x67E5;&#x770B;&#xFF1B;</li>
+<li>pg map&#xFF1A;&#x5305;&#x542B;&#x4E86;&#x96C6;&#x7FA4;&#x6240;&#x6709;pg&#x7684;&#x72B6;&#x6001;&#x3001;&#x7248;&#x672C;&#x3001;&#x6700;&#x5C0F;&#x7684;osd epoch&#x3001;&#x6BCF;&#x4E2A;pg&#x7684;<code>up set</code>&#x548C;<code>acting set</code>&#x7B49;&#xFF1B;&#x901A;&#x8FC7;<code>ceph pg dump</code>&#x67E5;&#x770B;&#xFF1B;</li>
+<li>crush map&#xFF1A;&#x5305;&#x542B;&#x4E86;&#x6240;&#x6709;&#x5B58;&#x50A8;&#x8BBE;&#x5907;&#x53CA;&#x5176;&#x7EC4;&#x7EC7;&#x4FE1;&#x606F;&#xFF08;&#x5982;&#xFF1A;&#x673A;&#x623F;&#x3001;&#x673A;&#x67DC;&#x3001;&#x670D;&#x52A1;&#x5668;&#x7B49;&#xFF09;&#x53CA;&#x5B58;&#x50A8;&#x8BBE;&#x5907;&#x7684;&#x9009;&#x62E9;&#x7B97;&#x6CD5;&#xFF1B;&#x901A;&#x8FC7;<code>ceph osd getcrushmap -o <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>output</span> <span class="token attr-name">filename</span><span class="token punctuation">&gt;</span></span></code>&#x547D;&#x4EE4;&#x83B7;&#x53D6;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;<code>crushtools -d <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>output</span> <span class="token attr-name">filename</span><span class="token punctuation">&gt;</span></span> -o <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>text</span> <span class="token attr-name">format</span> <span class="token attr-name">crushmap</span><span class="token punctuation">&gt;</span></span></code>&#x8FDB;&#x884C;&#x89E3;&#x7801;&#xFF1B;</li>
+<li>mds map&#xFF1A;&#x5305;&#x542B;&#x4E86;mds&#x4FE1;&#x606F;&#x7684;epoch&#x3001;&#x521B;&#x5EFA;&#x65F6;&#x95F4;&#x3001;&#x6700;&#x540E;&#x66F4;&#x65B0;&#x65F6;&#x95F4;&#x3001;&#x5B58;&#x50A8;&#x5143;&#x6570;&#x636E;&#x7684;pool&#x540D;&#x79F0;&#x53CA;mds&#x670D;&#x52A1;&#x5668;&#x5217;&#x8868;&#x53CA;&#x76F8;&#x5173;&#x670D;&#x52A1;&#x5668;&#x7684;&#x72B6;&#x6001;&#xFF1B;&#x901A;&#x8FC7;<code>ceph fs dump</code>&#x67E5;&#x770B;&#xFF1B;</li>
+</ul>
+<p>&#x5BA2;&#x6237;&#x7AEF;&#x542F;&#x52A8;&#x540E;&#xFF0C;&#x9996;&#x5148;&#x4F1A;&#x548C;ceph monitor&#x901A;&#x4FE1;&#xFF0C;&#x83B7;&#x53D6;&#x96C6;&#x7FA4;&#x5F53;&#x524D;&#x7684;&#x72B6;&#x6001;&#x4FE1;&#x606F;&#xFF08;Cluster Map&#xFF1A;monitor map&#x3001;osd map&#x3001;pg map&#x3001;crush map&#x3001;mds map&#x7B49;&#xFF09;&#xFF0C;&#x968F;&#x540E;&#x901A;&#x8FC7;&#x5BF9;&#x8C61;&#x540D;&#x79F0;&#x53CA;&#x5B58;&#x50A8;&#x6C60;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA1;&#x7B97;&#x51FA;pg&#x4FE1;&#x606F;&#xFF0C;&#x518D;&#x6839;&#x636E;pg map&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x5230;osd&#x5217;&#x8868;&#xFF0C;&#x901A;&#x8FC7;osd map&#x53EF;&#x4EE5;&#x83B7;&#x53D6;osd&#x8FDE;&#x63A5;&#x4FE1;&#x606F;&#xFF0C;&#x7136;&#x540E;&#x5BA2;&#x6237;&#x7684;&#x5C31;&#x53EF;&#x4EE5;&#x548C;osd&#x8FDB;&#x884C;&#x901A;&#x4FE1;&#xFF0C;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x8BFB;&#x5199;&#x4E86;&#x3002;</p>
+<h4 id="ceph-osd">ceph osd</h4>
+<h4 id="ceph-pg">ceph pg</h4>
+<h3 id="ceph&#x5FC3;&#x8DF3;&#x673A;&#x5236;">ceph&#x5FC3;&#x8DF3;&#x673A;&#x5236;</h3>
+<h3 id="&#x6570;&#x636E;&#x91CD;&#x5E73;&#x8861;">&#x6570;&#x636E;&#x91CD;&#x5E73;&#x8861;</h3>
+<h3 id="crush&#x7B97;&#x6CD5;">CRUSH&#x7B97;&#x6CD5;</h3>
+<p>CRUSH&#x7B97;&#x6CD5;&#x6838;&#x5FC3;&#x7684;&#x76EE;&#x6807;&#x662F;&#x5C06;PG&#x6620;&#x5C04;&#x5230;&#x4E00;&#x7EC4;OSD&#xFF0C;&#x540C;&#x65F6;&#x5B9E;&#x73B0;&#x5982;&#x4E0B;&#x76EE;&#x6807;&#xFF1A;</p>
+<ul>
+<li>&#x6570;&#x636E;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x591A;&#x4E2A;&#x526F;&#x672C;&#xFF0C;&#x7B97;&#x6CD5;&#x9700;&#x8981;&#x9009;&#x62E9;&#x51FA;&#x6307;&#x5B9A;&#x6570;&#x91CF;&#x7684;OSD</li>
+<li>&#x9009;&#x62E9;OSD&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x8003;&#x8651;&#x6570;&#x636E;&#x5BB9;&#x707E;&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;&#x9009;&#x51FA;&#x6765;&#x7684;&#x591A;&#x4E2A;OSD&#x4E0D;&#x80FD;&#x6765;&#x81EA;&#x4E8E;&#x540C;&#x4E00;&#x53F0;&#x670D;&#x52A1;&#x5668;</li>
+<li>&#x5404;&#x4E2A;OSD&#x7684;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7387;&#x5C3D;&#x53EF;&#x80FD;&#x5747;&#x8861;</li>
+<li>OSD&#x51FA;&#x73B0;&#x6545;&#x969C;&#x65F6;&#xFF0C;&#x4FDD;&#x6301;&#x6700;&#x5C0F;&#x5316;&#x6570;&#x636E;&#x8FC1;&#x79FB;&#x6210;&#x672C;</li>
+</ul>
+<p>CRUSH&#x7B97;&#x6CD5;&#x901A;&#x8FC7;&#x6811;&#x72B6;&#x5F62;&#x5F0F;&#x6765;&#x7EC4;&#x7EC7;OSD&#x53CA;OSD&#x5173;&#x8054;&#x7684;&#x4FE1;&#x606F;&#xFF08;&#x5982;&#xFF1A;&#x6240;&#x5C5E;&#x7684;&#x670D;&#x52A1;&#x5668;&#x3001;&#x6240;&#x5728;&#x7684;&#x673A;&#x67DC;&#x53CA;&#x6570;&#x636E;&#x4E2D;&#x5FC3;&#xFF09;&#x3002;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
+<p><a href="https://docs.ceph.com/en/latest/rados/operations/crush-map/" target="_blank"><img src="assets/ceph-crush-demo1.png"></a></p>
+<p>&#x5982;&#x4E0A;&#x56FE;&#xFF0C;CRUSH&#x7B97;&#x6CD5;&#x9009;&#x62E9;OSD&#x65F6;&#xFF0C;&#x662F;&#x4ECE;&#x6811;&#x7684;&#x6839;<code>root</code>&#x5F00;&#x59CB;&#x7684;&#xFF0C;&#x6839;&#x636E;&#x7B97;&#x6CD5;&#x7684;&#x5B9A;&#x4E49;&#x904D;&#x5386;bucket&#xFF08;&#x4E0A;&#x56FE;&#x4E2D;&#x7684;host foo&#x53CA;host bar&#xFF09;&#xFF0C;bucket&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A;&#x5C42;&#x7EA7;&#xFF0C;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#x3002;&#x6700;&#x540E;&#x4ECE;&#x53F6;&#x5B50;&#x8282;&#x70B9;&#xFF08;&#x4E5F;&#x5C31;&#x662F;OSD&#x8282;&#x70B9;&#xFF09;&#x4E2D;&#x9009;&#x62E9;&#x5177;&#x4F53;&#x7684;OSD&#x3002;</p>
+<h4 id="rule">RULE</h4>
+<p>&#x4E0B;&#x9762;&#x770B;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x4F8B;&#x5B50;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre class="language-"><code>rule replicated_ruleset {
+        id 0
+        type replicated
+        min_size 1
+        max_size 10
+        step take default
+        step chooseleaf firstn 0 type host
+        step emit
+}
+</code></pre><p>&#x5982;&#x4E0A;&#xFF0C;&#x6BCF;&#x6761;rule&#x90FD;&#x9700;&#x8981;&#x660E;&#x786E;&#x4E00;&#x4E9B;&#x6838;&#x5FC3;&#x7684;&#x53C2;&#x6570;&#xFF1A;</p>
+<ul>
+<li>type&#xFF1A;replicated&#xFF0C;&#x8868;&#x660E;&#x8FD9;&#x6761;&#x89C4;&#x5219;&#x53EA;&#x9002;&#x7528;&#x4E8E;&#x591A;&#x526F;&#x672C;&#x7684;&#x5B58;&#x50A8;&#x6C60;</li>
+<li>min_size: 1 &#x8868;&#x793A;&#x591A;&#x526F;&#x672C;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6700;&#x5C0F;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x526F;&#x672C;&#x5373;&#x53EF;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF0C;3&#x526F;&#x672C;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5EFA;&#x8BAE;&#x8BBE;&#x7F6E;&#x4E3A;2</li>
+<li>max_size: 10 &#x8868;&#x793A;&#x591A;&#x526F;&#x672C;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6700;&#x5927;&#x53EF;&#x4EE5;&#x4FDD;&#x5B58;10&#x4E2A;&#x526F;&#x672C;</li>
+<li>step xxx: step&#x662F;&#x6307;&#x660E;&#x9009;&#x62E9;OSD&#x65F6;&#x9700;&#x8981;&#x6267;&#x884C;&#x7684;&#x5177;&#x4F53;&#x6B65;&#x9AA4;&#xFF1B;step&#x91CC;&#x9762;&#x81F3;&#x5C11;&#x9700;&#x8981;&#x6709;&#x4E00;&#x6761;chooseleaf&#x6307;&#x4EE4;&#x548C;emit&#x6307;&#x4EE4;&#xFF1B;</li>
+</ul>
+<p>OSD&#x7684;&#x4FE1;&#x606F;&#x662F;&#x901A;&#x8FC7;&#x6811;&#x72B6;&#x7ED3;&#x6784;&#x8FDB;&#x884C;&#x7EC4;&#x7EC7;&#x7684;&#xFF0C;&#x5C31;&#x6709;&#x5F88;&#x5927;&#x7684;&#x7075;&#x6D3B;&#x6027;&#x3002;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x9700;&#x8981;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x8DE8;&#x673A;&#x67DC;&#x3001;&#x8DE8;&#x673A;&#x623F;&#x7684;&#x5197;&#x4F59;&#x3002;&#x66F4;&#x590D;&#x6742;&#x7684;&#x4F8B;&#x5B50;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x4E0B;&#x9762;&#x7684;&#x6587;&#x7AE0;&#xFF1A;</p>
+<p><a href="http://cephnotes.ksperis.com/blog/2015/02/02/crushmap-example-of-a-hierarchical-cluster-map/" target="_blank">http://cephnotes.ksperis.com/blog/2015/02/02/crushmap-example-of-a-hierarchical-cluster-map/</a></p>
+<p>&#x5173;&#x4E8E;CRUSH&#x7B97;&#x6CD5;&#x672C;&#x8EAB;&#x7684;&#x5B9E;&#x73B0;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<p><a href="http://www.xuxiaopang.com/2016/11/08/easy-ceph-CRUSH/" target="_blank">http://www.xuxiaopang.com/2016/11/08/easy-ceph-CRUSH/</a></p>
+<h4 id="&#x53C2;&#x8003;&#x8D44;&#x6599;">&#x53C2;&#x8003;&#x8D44;&#x6599;</h4>
+<p><a href="https://zhuanlan.zhihu.com/p/58888246" target="_blank">https://zhuanlan.zhihu.com/p/58888246</a></p>
+<h3 id="&#x601D;&#x8003;">&#x601D;&#x8003;</h3>
+<ol>
+<li>ceph monitor&#x4E0A;&#x9700;&#x8981;&#x4FDD;&#x5B58;&#x4EC0;&#x4E48;&#x4FE1;&#x606F;&#xFF1F;</li>
+<li>OSD down&#x4E86;&#x4E4B;&#x540E;&#xFF0C;pg&#x53D1;&#x751F;remap&#x4E4B;&#x540E;&#xFF0C;client&#x7AEF;&#x5982;&#x4F55;&#x53D1;&#x73B0;&#xFF0C;&#x9700;&#x8981;&#x600E;&#x4E48;&#x5904;&#x7406;&#xFF1F;</li>
+</ol>
+<h3 id="&#x8BA4;&#x8BC1;&#x673A;&#x5236;">&#x8BA4;&#x8BC1;&#x673A;&#x5236;</h3>
+<h3 id="&#x5BB9;&#x707E;&#x67B6;&#x6784;">&#x5BB9;&#x707E;&#x67B6;&#x6784;</h3>
+<h2 id="ceph&#x5E38;&#x89C1;&#x8FD0;&#x7EF4;&#x64CD;&#x4F5C;">ceph&#x5E38;&#x89C1;&#x8FD0;&#x7EF4;&#x64CD;&#x4F5C;</h2>
+<h3 id="&#x6DFB;&#x52A0;&#x5220;&#x9664;&#x4FEE;&#x6539;pool">&#x6DFB;&#x52A0;/&#x5220;&#x9664;/&#x4FEE;&#x6539;pool</h3>
+<h3 id="&#x6DFB;&#x52A0;&#x5220;&#x9664;&#x4FEE;&#x6539;osd">&#x6DFB;&#x52A0;/&#x5220;&#x9664;/&#x4FEE;&#x6539;osd</h3>
+<h3 id="&#x6DFB;&#x52A0;&#x5220;&#x9664;&#x4FEE;&#x6539;mon">&#x6DFB;&#x52A0;/&#x5220;&#x9664;/&#x4FEE;&#x6539;mon</h3>
+<h3 id="&#x6DFB;&#x52A0;&#x5220;&#x9664;&#x4FEE;&#x6539;rgw">&#x6DFB;&#x52A0;/&#x5220;&#x9664;/&#x4FEE;&#x6539;rgw</h3>
+<h3 id="&#x8C03;&#x6574;crushmap">&#x8C03;&#x6574;crushmap</h3>
+<ul>
+<li>&#x83B7;&#x53D6; CRUSH &#x56FE;</li>
+</ul>
+<p>&#x8981;&#x83B7;&#x53D6;&#x96C6;&#x7FA4;&#x7684; CRUSH &#x56FE;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre class="language-"><code>ceph osd getcrushmap -o {compiled-crushmap-filename}
+</code></pre><p>Ceph&#x5C06;&#x628A; CRUSH &#x8F93;&#x51FA;&#xFF08; -o &#xFF09;&#x5230;&#x4F60;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x7531;&#x4E8E; CRUSH &#x56FE;&#x662F;&#x5DF2;&#x7F16;&#x8BD1;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x7F16;&#x8F91;&#x524D;&#x5FC5;&#x987B;&#x5148;&#x53CD;&#x7F16;&#x8BD1;&#x3002;</p>
+<ul>
+<li>&#x53CD;&#x7F16;&#x8BD1; CRUSH &#x56FE;</li>
+</ul>
+<p>&#x8981;&#x53CD;&#x7F16;&#x8BD1; CRUSH &#x56FE;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre class="language-"><code>crushtool -d {compiled-crushmap-filename} -o {decompiled-crushmap-filename}
+</code></pre><p>Ceph&#x5C06;&#x53CD;&#x7F16;&#x8BD1;&#xFF08; -d &#xFF09;&#x4E8C;&#x8FDB;&#x5236; CRUSH &#x56FE;&#xFF0C;&#x4E14;&#x8F93;&#x51FA;&#xFF08; -o &#xFF09;&#x5230;&#x4F60;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x53CD;&#x7F16;&#x8BD1;&#x4E4B;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#x3002;&#x8C03;&#x6574;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x7F16;&#x8BD1;&#x5E76;&#x5BFC;&#x5165;&#x96C6;&#x7FA4;&#x3002;</p>
+<ul>
+<li>&#x7F16;&#x8BD1; CRUSH &#x56FE;</li>
+</ul>
+<p>&#x8981;&#x7F16;&#x8BD1; CRUSH &#x56FE;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre class="language-"><code>crushtool -c {decompiled-crush-map-filename} -o {compiled-crush-map-filename}
+</code></pre><p>Ceph &#x5C06;&#x628A;&#x5DF2;&#x7F16;&#x8BD1;&#x7684; CRUSH &#x56FE;&#x4FDD;&#x5B58;&#x5230;&#x4F60;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x3002;</p>
+<ul>
+<li>&#x5BFC;&#x5165; CRUSH &#x56FE;</li>
+</ul>
+<p>&#x8981;&#x628A; CRUSH &#x56FE;&#x5E94;&#x7528;&#x5230;&#x96C6;&#x7FA4;&#xFF0C;&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre class="language-"><code>ceph osd setcrushmap -i  {compiled-crushmap-filename}
+</code></pre><p>Ceph &#x5C06;&#x628A;&#x4F60;&#x6307;&#x5B9A;&#x7684;&#x5DF2;&#x7F16;&#x8BD1; CRUSH &#x56FE;&#x8F93;&#x5165;&#x5230;&#x96C6;&#x7FA4;&#x3002;</p>
+<h2 id="ceph&#x6027;&#x80FD;&#x4F18;&#x5316;">ceph&#x6027;&#x80FD;&#x4F18;&#x5316;</h2>
+<h2 id="ceph&#x76D1;&#x63A7;">ceph&#x76D1;&#x63A7;</h2>
+<h2 id="ceph&#x6700;&#x4F73;&#x5B9E;&#x8DF5;">ceph&#x6700;&#x4F73;&#x5B9E;&#x8DF5;</h2>
+<h2 id="&#x53C2;&#x8003;&#x6587;&#x6863;">&#x53C2;&#x8003;&#x6587;&#x6863;</h2>
+<p><a href="https://docs.ceph.com/en/latest/rados/operations/crush-map/" target="_blank">https://docs.ceph.com/en/latest/rados/operations/crush-map/</a></p>
+<p><a href="https://ceph.com/wp-content/uploads/2016/08/weil-rados-pdsw07.pdf" target="_blank">https://ceph.com/wp-content/uploads/2016/08/weil-rados-pdsw07.pdf</a></p>
+<footer class="page-footer"><span class="copyright">&#xA9;  all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">updated: 
+2020-12-14 15:33:32
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../summary.html" class="navigation navigation-prev " aria-label="Previous page: 云计算">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../db/summary.html" class="navigation navigation-next " aria-label="Next page: 数据库">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ceph存储","level":"1.4.1","depth":2,"next":{"title":"数据库","level":"1.5","depth":1,"path":"db/summary.md","ref":"db/summary.md","articles":[{"title":"基础","level":"1.5.1","depth":2,"path":"db/common.md","ref":"db/common.md","articles":[]}]},"previous":{"title":"云计算","level":"1.4","depth":1,"path":"cloud/summary.md","ref":"cloud/summary.md","articles":[{"title":"ceph存储","level":"1.4.1","depth":2,"path":"cloud/ceph/summary.md","ref":"cloud/ceph/summary.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","-highlight","prism","code","splitter","multipart","expandable-chapters","chapter-fold","tbfed-pagefooter","hide-element","back-to-top-button","-lunr","-search","search-pro","page-toc-button","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy ","modify_label":"updated: ","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"prism":{},"livereload":{},"splitter":{},"search-pro":{},"multipart":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"back-to-top-button":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{}},"theme":"default","author":"Jiajun <iamljj@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"个人知识库","language":"zh-hans","links":{"sidebar":{}},"gitbook":"*"},"file":{"path":"cloud/ceph/summary.md","mtime":"2020-12-14T07:33:32.301Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-12-14T06:10:45.324Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
